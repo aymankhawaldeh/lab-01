@@ -1,7 +1,41 @@
+main{
+    margin: auto;
+}
+section{
+    overflow: hidden;
+}
+div , header , footer , aside {float: left;
+width: 100%;}
 
-nav{
-    text-align: center;
-}
-nav li{
-    display: inline;    
-}
+
+      @media screen and (max-width: 960px){
+        main{ width: 470px;}
+        header{height: 65px;}
+        aside{height: 150px;}
+        footer{height: 80px;}
+        .next{height: 123px;}
+        .end{height: 251px;
+        width: 230px;}
+    
+    }
+    
+    @media screen and (min-width: 960px) {
+        main { width: 960px;}
+        .next{height: 200px;
+        width: 380px;}
+        .end{ height: 250px;
+        width: 190px;}
+        header{
+            height: 100px;
+    
+        }
+        footer {
+            height: 150px;
+            width: 760px;
+        }
+        aside{
+            height: 600px;
+            width: 200px;
+            overflow: hidden;
+        }
+    }

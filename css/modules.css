@@ -1,0 +1,21 @@
+
+@media screen and (max-width: 960px){
+    footer{   border-top: none;}
+    .next , .end { border-top: none;}
+   
+   
+   }
+   
+   @media screen and (min-width: 960px){
+       div{   border-top: none;
+           border-left: none;
+       }
+       footer { border-top: none;
+           border-left: none;
+       }
+      
+       aside{
+           border-top: none;
+       }
+      
+      }
